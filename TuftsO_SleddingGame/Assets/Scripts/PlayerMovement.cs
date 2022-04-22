@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
             }
             
             if (!right && x > 0) {
-                transform.position += new Vector3(13, 0, 0);
+                transform.position += new Vector3(15, 0, 0);
                 
                 if (middle) {
                     middle = false;

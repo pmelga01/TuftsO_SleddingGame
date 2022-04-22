@@ -23,7 +23,7 @@ public class MoveCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y > -255) {
+        if (transform.position.y > -245) {
             transform.position = Vector3.MoveTowards(transform.position, endMarker, speed * Time.deltaTime);
         } else {
             rb.drag += 0.1f;
